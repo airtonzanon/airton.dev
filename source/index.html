@@ -1,0 +1,20 @@
+---
+layout: default
+title: Home
+generator: pagination
+pagination:
+    max_per_page: 15
+use:
+    - posts
+---
+{% for post in page.pagination.items %}
+    <article>
+	    <h5><i class="fas fa-angle-double-right text-secondary"></i> <a class="text-secondary" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
+    </article>
+{% endfor %}
+{% if page.pagination.previous_page or page.pagination.next_page %}
+    <nav>
+        {% if page.pagination.previous_page %}<a class="text-secondary" href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts</a>{% endif %}<br />
+        {% if page.pagination.next_page %}<a class="text-secondary" href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts</a>{% endif %}<br />
+    </nav>
+{% endif %}
