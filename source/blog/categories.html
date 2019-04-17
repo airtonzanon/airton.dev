@@ -4,10 +4,10 @@ title: Categories
 use:
     - posts_categories
 ---
-<h2>Categories</h2>
+<h3>Categories</h3>
 
 <div>
 {% for category,posts in data.posts_categories %}
-<a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>
+<h5><i class="fas fa-angle-double-right text-secondary"></i> <a class="text-secondary" href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>
 {% endfor %}
 </div>
