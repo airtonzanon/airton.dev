@@ -7,7 +7,7 @@ pagination:
 use:
     - posts
 ---
-{% for post in page.pagination.items %}
+{% for post in page.pagination.items|reverse %}
     <article>
 	    <h5><i class="fas fa-angle-double-right text-secondary"></i> <a class="text-secondary" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
     </article>
