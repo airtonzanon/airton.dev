@@ -67,3 +67,9 @@ This test won't test what the process builder will do (which normally is what we
 Remember that every time we deploy a process builder, it'll be inactive, so for the test to run well, we need to deploy the process builder first, activate it and then deploy the tests. (It's not the best scenario of all, but, at least we'll have something testing the process builder).
 
 If you don't want to have this problem, please read this [release note](https://releasenotes.docs.salesforce.com/en-us/winter19/release-notes/rn_forcecom_flow_deploy_as_active.htm "Salesforce release article") from Salesforce.
+
+### Update 12-08-2019
+
+Some days ago a peer was talking to me about a test that wasn't passing because it found some rows on `FlowInterview` table, that was trick, because it was supposed to have no rows there, after an investigation on our Process Builders we found the problem, we forgot to disable a process builder that we wouldn't use anymore. So that's the beauty of this test, we can find if something is triggering something else that shouldn't.
+
+Also, I would like to mention that every time that a new test runs, it will clear all the database, in other words, the table `FlowInterview` will be empty when you run a new test, and it will just have content if some process builder has a scheduler.
