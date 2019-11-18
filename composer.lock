@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cdda3b0773159e30d8d9ad368c47c41",
+    "content-hash": "00f843740dc14f00345955cfe6d11038",
     "packages": [
         {
             "name": "dflydev/ant-path-matcher",
@@ -2728,7 +2728,56 @@
             "time": "2017-05-11T10:04:12+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "malukenho/mcbumpface",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/malukenho/mcbumpface.git",
+                "reference": "f20c46a7ae697fcb41a18893c4013eb9a1751d6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/malukenho/mcbumpface/zipball/f20c46a7ae697fcb41a18893c4013eb9a1751d6c",
+                "reference": "f20c46a7ae697fcb41a18893c4013eb9a1751d6c",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0.0",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "composer/composer": "^1.6.3",
+                "doctrine/coding-standard": "^4.0",
+                "ext-zip": "*",
+                "infection/infection": "^0.7.1",
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^7.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Malukenho\\McBumpface\\BumpInto"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Malukenho\\McBumpface\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefersson Nathan",
+                    "email": "malukenho@phpse.net"
+                }
+            ],
+            "description": "Bumping into packages",
+            "time": "2018-12-28T13:39:52+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],

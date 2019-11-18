@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "sculpin/sculpin": "^3.0"
+        "sculpin/sculpin": "^3.0.2"
     },
     "scripts": {
         "sculpin-watch": [
@@ -27,5 +27,8 @@
             "Composer\\Config::disableProcessTimeout",
             "yarn encore dev --watch"
         ]
+    },
+    "require-dev": {
+        "malukenho/mcbumpface": "^0.1.3"
     }
 }
