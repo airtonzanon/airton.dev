@@ -1,13 +1,7 @@
 ---
 createdAt: 2019-08-05
 title: Testing a Process Builder with scheduler on Apex (Salesforce)
-tags:
-    - process-builder
-    - salesforce
-    - test
-    - apex
-categories:
-    - tutorial
+
 ---
 
 ## Scenario

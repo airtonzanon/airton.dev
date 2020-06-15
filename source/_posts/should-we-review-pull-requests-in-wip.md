@@ -1,11 +1,6 @@
 ---
 createdAt: 2020-03-01
 title: Should we review Pull Requests in WIP?
-tags:
-    - code review
-    - pull request
-categories:
-    - opinion
 
 ---
 

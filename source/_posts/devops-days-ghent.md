@@ -1,10 +1,6 @@
 ---
 createdAt: 2019-11-18
 title: My notes about DevopsDays 2019 Ghent talks
-tags:
-    - notes
-categories:
-    - conference
 
 ---
 
