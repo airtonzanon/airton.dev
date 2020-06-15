@@ -1,36 +1,40 @@
 {% extends "default" %}
 
 {% block head_meta %}
-    <meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow">
 {% endblock %}
 
 {% block content_wrapper %}
-    <article>
-        <header>
-	    <h2><i class="fas fa-angle-double-right"></i> {{ page.title }} <small>post</small></h2>
-	    <p>
-	    	<small>posted at {{ page.createdAt|date("d-m-Y") }}</small>
-	    </p>
-        </header>
-        <div>
-            {{ page.blocks.content|raw }}
-        </div>
-        {% if page.categories %}
-            <p class="categories">
-            Categories:
-            {% for category in page.categories %}
-            <a class="text-secondary" href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
+<a href="{{ site.url }}" class='go-home'>back to airton.dev</a>
+<article>
+    <header>
+        <h2><i class="fas fa-angle-double-right"></i> {{ page.title }} <small>post</small></h2>
+        <p>
+            <small>posted at {{ page.createdAt|date("d-m-Y") }}</small>
+        </p>
+    </header>
+    <div>
+        {{ page.blocks.content|raw }}
+    </div>
+    {% if page.categories %}
+    <p class="categories">
+        Categories:
+        {% for category in page.categories %}
+        <a class="text-secondary"
+            href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %},
         {% endif %}
-        {% if page.tags %}
-            <p class="tags">
-            Tags:
-            {% for tag in page.tags %}
-            <a class="text-secondary" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
-        {% endif %}
-    </article>
+        {% endfor %}
+    </p>
+    {% endif %}
+    {% if page.tags %}
+    <p class="tags">
+        Tags:
+        {% for tag in page.tags %}
+        <a class="text-secondary"
+            href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+    </p>
+    {% endif %}
+</article>
 
 {% endblock %}
