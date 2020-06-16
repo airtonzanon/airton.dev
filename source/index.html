@@ -25,13 +25,13 @@ use:
 
 {% set posts = [] %}
 {% for post in page.pagination.items %}
-{% set posts = posts|merge([{url: post.url, title: post.title, created_at: post.createdAt}])%}
+{% set posts = posts|merge([{url: post.url, title: post.title, created_at: post.createdAt, language: post.language}])%}
 {% endfor %}
 
 {% for post in posts|sort((a, b) => b.created_at <=> a.created_at)%}
 <article>
     <h5><i class="fas fa-angle-double-right text-secondary"></i> <a class="text-secondary"
-            href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
+    href="{{ site.url }}{{ post.url }}">[{{ post.language }}] - {{ post.title }}</a></h5>
 </article>
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}

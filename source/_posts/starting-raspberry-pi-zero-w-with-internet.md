@@ -1,6 +1,7 @@
 ---
 createdAt: 2019-07-25
 title: Starting a Raspberry Pi Zero W with network
+language: EN
 
 ---
 
