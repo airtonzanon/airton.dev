@@ -1,0 +1,21 @@
+---
+layout: default
+title: Today I Learned
+use:
+- til
+---
+<a href="{{ site.url }}" class='go-home'>back to airton.dev</a>
+
+{% set posts = [] %}
+{% for post in data.til %}
+{% set posts = posts|merge([{url: post.url, title: post.title, created_at: post.createdAt, language: post.language}])%}
+{% endfor %}
+
+<h3>Today I Learned</h3>
+
+{% for post in posts%}
+<article>
+    <i class="fas fa-angle-double-right"></i>
+    <a href="{{ site.url }}{{ post.url }}">[{{ post.created_at|date("d-m-Y") }}] - {{ post.title }}</a>
+</article>
+{% endfor %}

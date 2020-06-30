@@ -1,6 +1,9 @@
 sculpin_content_types:
     posts:
         permalink: article/:slug_title/
+    til:
+        path: _til
+        permalink: til/:slug_title/
 
 sculpin:
     permalink: pretty
