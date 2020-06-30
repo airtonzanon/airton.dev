@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Walter+Turncoat");
+
 html,
 body {
   width: 100%;
@@ -6,7 +9,9 @@ body {
 }
 
 body {
-  background: #fff;
+  background-size: 1em 1em;
+  background-image: radial-gradient(circle, rgba(0, 50, 255, 0.2) 1px, rgba(0, 0, 0, 0) 2px);
+  background-position: .3em .62em;
   color: #000;
   font-family: "Roboto Mono", monospace;
 }
@@ -54,6 +59,27 @@ h2 {
   margin: 0 0 0.5em 0;
 }
 
+h3 {
+  font-family: 'Walter Turncoat', monospace;
+  font-size: 2.0em;
+}
+
+
+ul {
+  font-family: 'Walter Turncoat', monospace;
+  display: block;
+  line-height: 1.001em;
+  color: #37373c;
+  margin-left: 1em;
+}
+
+ul li {
+  padding-bottom: 0.30em;
+  font-size: 1.5rem;
+  display: flex;
+  outline: none;
+}
+
 a {
   color: #96979c;
 }
@@ -79,6 +105,8 @@ a:hover {
 .bio {
   display: none;
   line-height: 24px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .bio br {
@@ -125,3 +153,106 @@ code {
   background-color: #eee;
   padding: 0 5px 0 5px;
 }
+
+.random-stuff {
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.menu-collective {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.menu-collective a {
+  background: white;
+  border: 0.125em solid #96979c;
+  cursor: pointer;
+  font: 600 1.5rem/1.25 "Roboto Mono", monospace;
+  letter-spacing: 0.125em;
+  margin: 0.5rem;
+  padding: 0.5em 0.75em;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu-collective a:before, .menu-collective a:after {
+  content: "";
+  position: absolute;
+  transition: all 0.125s ease-in-out;
+}
+
+.menu-collective a.menu {
+  background: none;
+  border-color: transparent;
+}
+
+.menu-collective a.menu:before, .menu-collective a.menu:after {
+  transition: all 0.175s ease-in-out;
+}
+
+.menu-collective a.menu:before {
+  background: #96979c;
+  border: 0px dashed #96979c;
+  left: -0.125em;
+  top: -0.125em;
+  right: -0.125em;
+  bottom: -0.125em;
+  z-index: -1;
+}
+
+.menu-collective a.menu:hover:before, .menu-collective a.menu:focus:before {
+  background: white;
+  border-width: 0.125em;
+}
+
+.menu-collective a.menu:after {
+  background: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Walter+Turncoat");
+.my-content {
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 2.5em;
+  padding: 1em;
+  background-size: 1em 1em;
+  background-image: radial-gradient(circle, rgba(0, 50, 255, 0.2) 1px, rgba(0, 0, 0, 0) 2px);
+  background-position: .3em .62em;
+}
+
+.heading {
+  display: block;
+  line-height: 1.001em;
+  color: #37373c;
+  margin-bottom: 1em;
+}
+
+.note {
+  display: block;
+  line-height: 1.001em;
+  color: #37373c;
+  margin-left: 1em;
+}
+
+.note .text {
+  margin-left: 1.25em;
+  display: flex;
+  margin-top: -1em;
+  outline: none;
+}
+
+.note .todo {
+  display: inline-block;
+  position: relative;
+  transform: scale(1.3);
+  cursor: pointer;
+  user-select: none;
+}
+
