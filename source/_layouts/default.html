@@ -69,7 +69,9 @@
     </main>
     <hr>
     <footer>
-      <span class="text-muted">&copy; {{ "now"|date("Y") }} {{ site.title }}</span>
+      <span class="text-muted">&copy; {{ "now"|date("Y") }} {{ site.title }}</span> -
+      <span class="text-muted"><a href='{{ site.url }}/atom.xml'>Articles Feed</a></span> -
+      <span class="text-muted"><a href='{{ site.url }}/til-feed.xml'>TIL Feed</a></span>
     </footer>
   </div>
 
