@@ -3,6 +3,6 @@ permalink: none
 ---
 
 User-agent: *
-Disallow: /what-iam-doing/
+Disallow: /doing/
 
 Sitemap: {{ site.url }}/sitemap.xml
