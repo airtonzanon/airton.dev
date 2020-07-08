@@ -14,8 +14,8 @@ use:
 <h3>Today I Learned</h3>
 
 {% for post in posts|sort((a, b) => b.created_at <=> a.created_at)%}
-<article>
+<h5>
     <i class="fas fa-angle-double-right"></i>
     <a href="{{ site.url }}{{ post.url }}">[{{ post.created_at|date("d-m-Y") }}] - {{ post.title }}</a>
-</article>
+</h5>
 {% endfor %}
