@@ -18,5 +18,5 @@ title: What I am doing lately
 * * Minecraft Dungeons
 * * The Walking Dead
 * Reading
-* * -
+* * [The Right to be Lazy](https://www.amazon.com/Right-Be-Lazy-Paul-Lafargue/dp/1406881430/ref=sr_1_1?dchild=1&keywords=The+Right+to+Be+Lazy&qid=1594209165&sr=8-1)
 * Trying to train my Dog
