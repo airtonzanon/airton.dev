@@ -17,7 +17,7 @@ permalink: til-feed.xml
     {% endif %}
     {% set posts = [] %}
     {% for post in data.til %}
-    {% set posts = posts|merge([{url: post.url, title: post.title, created_at: post.createdAt, language: post.language}])%}
+    {% set posts = posts|merge([{url: post.url, title: post.title, created_at: post.createdAt, language: post.language, content: post.blocks.content}])%}
     {% endfor %}
     <generator uri="http://sculpin.io/">Sculpin</generator>
     {% for post in posts|sort((a, b) => b.created_at <=> a.created_at)|slice(0, 10)%}
@@ -26,7 +26,7 @@ permalink: til-feed.xml
             <link href="{{ site.url }}{{ post.url }}"/>
             <updated>{{ post.created_at|date('c') }}</updated>
             <id>{{ site.url }}{{ post.url }}</id>
-            <content type="html"><![CDATA[{{ post.blocks.content|raw }}]]></content>
+            <content type="html"><![CDATA[{{ post.content|raw }}]]></content>
         </entry>
     {% endfor %}
 </feed>
