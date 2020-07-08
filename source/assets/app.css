@@ -71,13 +71,12 @@ ul {
   line-height: 1.001em;
   color: #37373c;
   margin-left: 1em;
+  list-style-type: none;
 }
 
 ul li {
   padding-bottom: 0.30em;
   font-size: 1.5rem;
-  display: flex;
-  outline: none;
 }
 
 a {
@@ -147,6 +146,7 @@ pre code {
   border: 1px solid #999;
   display: block;
   padding: 20px;
+  overflow-x:scroll;
 }
 
 code {
@@ -176,6 +176,8 @@ code {
   position: relative;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline flow-root list-item;
+  list-style-type: none;
 }
 
 .menu-collective a:before, .menu-collective a:after {
