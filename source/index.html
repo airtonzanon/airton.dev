@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Home
-generator: pagination
-pagination:
-max_per_page: 15
 use:
 - posts
 - til
@@ -34,8 +31,8 @@ use:
 
 {% set posts = [] %}
 
-{% for post in page.pagination.items %}
-{% set posts = posts|merge([{url: post.url, title: post.title, created_at: post.createdAt, language: post.language, type: 'Article'}])%}
+{% for post in data.posts %}
+{% set posts = posts|merge([{url: post.url, title: post.title, created_at: post.createdAt, language: post.language, type: 'Post'}])%}
 {% endfor %}
 
 {% for post in data.til %}
