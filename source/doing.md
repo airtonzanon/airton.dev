@@ -8,6 +8,7 @@ title: What I am doing lately
 ### What I am doing lately
 
 * Working
+* * Learning Golang
 * * Data Science Pipeline
 * * Python
 * * AWS Sagemaker and Serverless
@@ -15,8 +16,10 @@ title: What I am doing lately
 * * Improving a Telegram bot ([Github](https://github.com/airtonzanon/dps_do_cafe_bot))
 * * Podcasting ([Anchor](https://episodios.depois.cafe))
 * Games
+* * FIFA20
 * * Minecraft Dungeons
 * * The Walking Dead
 * Reading
-* * [The Right to be Lazy](https://www.amazon.com/Right-Be-Lazy-Paul-Lafargue/dp/1406881430/ref=sr_1_1?dchild=1&keywords=The+Right+to+Be+Lazy&qid=1594209165&sr=8-1)
+* * Harry Potter and the Philosopher's Stone
+* * The Right to be Lazy
 * Trying to train my Dog
