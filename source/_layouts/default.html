@@ -70,8 +70,11 @@
     <hr>
     <footer>
       <span class="text-muted">&copy; {{ "now"|date("Y") }} {{ site.title }}</span> -
-      <span class="text-muted"><a href='{{ site.url }}/atom.xml'>Posts Feed</a></span> -
-      <span class="text-muted"><a href='{{ site.url }}/til-feed.xml'>TIL Feed</a></span>
+      <span class="text-muted">Proudly not using cookies <i class="fas fa-cookie-bite"></i> to track you</span> </br>
+      <center>
+          <span class="text-muted"><a href='{{ site.url }}/atom.xml'>Posts Feed</a></span> -
+          <span class="text-muted"><a href='{{ site.url }}/til-feed.xml'>TIL Feed</a></span>
+      </center>
     </footer>
   </div>
   {% block scripts_after %}
