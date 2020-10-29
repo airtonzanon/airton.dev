@@ -2739,6 +2739,7 @@
                 "i18n",
                 "text"
             ],
+            "abandoned": true,
             "time": "2018-12-05T18:34:18+00:00"
         },
         {
@@ -2998,29 +2999,30 @@
     "packages-dev": [
         {
             "name": "malukenho/mcbumpface",
-            "version": "1.1.2",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/malukenho/mcbumpface.git",
-                "reference": "b75a705b16fdb2adb20165ae58205349675ab6e1"
+                "reference": "4b24a15fe241957f2ba7ad18308099178f810de9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/malukenho/mcbumpface/zipball/b75a705b16fdb2adb20165ae58205349675ab6e1",
-                "reference": "b75a705b16fdb2adb20165ae58205349675ab6e1",
+                "url": "https://api.github.com/repos/malukenho/mcbumpface/zipball/4b24a15fe241957f2ba7ad18308099178f810de9",
+                "reference": "4b24a15fe241957f2ba7ad18308099178f810de9",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0.0",
-                "php": "^7.2"
+                "composer-plugin-api": "^1.0.0 || ^2.0.0",
+                "php": "^7.2 || ~8.0"
             },
             "require-dev": {
-                "composer/composer": "^1.9.3",
-                "doctrine/coding-standard": "^7.0.2",
+                "composer/composer": "^1.9.3 || ^2.0.2",
+                "doctrine/coding-standard": "^8.2.0",
                 "ext-json": "*",
                 "ext-zip": "*",
-                "infection/infection": "^0.15.0",
-                "phpunit/phpunit": "^8.5.2"
+                "infection/infection": "^0.18.2",
+                "phpunit/phpunit": "^9.4.2",
+                "staabm/annotate-pull-request-from-checkstyle": "^1.4.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -3042,7 +3044,7 @@
                 }
             ],
             "description": "Bumping into packages",
-            "time": "2020-02-20T14:45:13+00:00"
+            "time": "2020-10-28T19:29:45+00:00"
         }
     ],
     "aliases": [],
