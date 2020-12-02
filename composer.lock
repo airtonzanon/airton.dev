@@ -53,10 +53,6 @@
                 "path",
                 "pattern"
             ],
-            "support": {
-                "issues": "https://github.com/dflydev/dflydev-util-antPathMatcher/issues",
-                "source": "https://github.com/dflydev/dflydev-util-antPathMatcher/tree/v1.0.3"
-            },
             "time": "2012-12-03T05:03:00+00:00"
         },
         {
@@ -112,10 +108,6 @@
                 "mime",
                 "mimetypes"
             ],
-            "support": {
-                "issues": "https://github.com/dflydev/dflydev-apache-mime-types/issues",
-                "source": "https://github.com/dflydev/dflydev-apache-mime-types/tree/v1.0.1"
-            },
             "time": "2013-05-14T02:02:01+00:00"
         },
         {
@@ -171,10 +163,6 @@
                 "mime",
                 "type"
             ],
-            "support": {
-                "issues": "https://github.com/dflydev/dflydev-canal/issues",
-                "source": "https://github.com/dflydev/dflydev-canal/tree/master"
-            },
             "time": "2013-05-14T05:22:25+00:00"
         },
         {
@@ -235,10 +223,6 @@
                 "config",
                 "configuration"
             ],
-            "support": {
-                "issues": "https://github.com/dflydev/dflydev-dot-access-configuration/issues",
-                "source": "https://github.com/dflydev/dflydev-dot-access-configuration/tree/master"
-            },
             "time": "2018-09-08T23:00:17+00:00"
         },
         {
@@ -298,10 +282,6 @@
                 "dot",
                 "notation"
             ],
-            "support": {
-                "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
-                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/master"
-            },
             "time": "2017-01-20T21:14:22+00:00"
         },
         {
@@ -354,10 +334,6 @@
                 "placeholder",
                 "resolver"
             ],
-            "support": {
-                "issues": "https://github.com/dflydev/dflydev-placeholder-resolver/issues",
-                "source": "https://github.com/dflydev/dflydev-placeholder-resolver/tree/v1.0.2"
-            },
             "time": "2012-10-28T21:08:28+00:00"
         },
         {
@@ -436,10 +412,6 @@
                 "uppercase",
                 "words"
             ],
-            "support": {
-                "issues": "https://github.com/doctrine/inflector/issues",
-                "source": "https://github.com/doctrine/inflector/tree/1.4.x"
-            },
             "funding": [
                 {
                     "url": "https://www.doctrine-project.org/sponsorship.html",
@@ -497,10 +469,6 @@
                 "event-dispatcher",
                 "event-emitter"
             ],
-            "support": {
-                "issues": "https://github.com/igorw/evenement/issues",
-                "source": "https://github.com/igorw/evenement/tree/master"
-            },
             "time": "2017-07-23T21:35:13+00:00"
         },
         {
@@ -550,10 +518,6 @@
             "keywords": [
                 "markdown"
             ],
-            "support": {
-                "issues": "https://github.com/michelf/php-markdown/issues",
-                "source": "https://github.com/michelf/php-markdown/tree/1.9.0"
-            },
             "time": "2019-12-02T02:32:27+00:00"
         },
         {
@@ -607,12 +571,6 @@
                 "plaintext",
                 "textile"
             ],
-            "support": {
-                "irc": "irc://irc.freenode.net/textile",
-                "issues": "https://github.com/textile/php-textile/issues",
-                "source": "https://github.com/textile/php-textile",
-                "wiki": "https://github.com/textile/php-textile/wiki"
-            },
             "time": "2020-01-08T21:13:37+00:00"
         },
         {
@@ -662,10 +620,6 @@
                 "container-interop",
                 "psr"
             ],
-            "support": {
-                "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/master"
-            },
             "time": "2017-02-14T16:28:37+00:00"
         },
         {
@@ -716,9 +670,6 @@
                 "request",
                 "response"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/http-message/tree/master"
-            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -766,9 +717,6 @@
                 "psr",
                 "psr-3"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/log/tree/1.1.3"
-            },
             "time": "2020-03-23T09:12:05+00:00"
         },
         {
@@ -831,10 +779,6 @@
                 "promise",
                 "reactphp"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/cache/issues",
-                "source": "https://github.com/reactphp/cache/tree/v1.1.0"
-            },
             "funding": [
                 {
                     "url": "https://github.com/WyriHaximus",
@@ -911,10 +855,6 @@
                 "dns-resolver",
                 "reactphp"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/dns/issues",
-                "source": "https://github.com/reactphp/dns/tree/v1.4.0"
-            },
             "funding": [
                 {
                     "url": "https://github.com/WyriHaximus",
@@ -967,38 +907,39 @@
                 "asynchronous",
                 "event-loop"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/event-loop/issues",
-                "source": "https://github.com/reactphp/event-loop/tree/v1.1.1"
-            },
             "time": "2020-01-01T18:39:52+00:00"
         },
         {
             "name": "react/http",
-            "version": "v0.8.7",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/http.git",
-                "reference": "9aa446fd86745403a09c315c90d4e464fd84382b"
+                "reference": "754b0c18545d258922ffa907f3b18598280fdecd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/http/zipball/9aa446fd86745403a09c315c90d4e464fd84382b",
-                "reference": "9aa446fd86745403a09c315c90d4e464fd84382b",
+                "url": "https://api.github.com/repos/reactphp/http/zipball/754b0c18545d258922ffa907f3b18598280fdecd",
+                "reference": "754b0c18545d258922ffa907f3b18598280fdecd",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
                 "php": ">=5.3.0",
+                "psr/http-message": "^1.0",
+                "react/event-loop": "^1.0 || ^0.5",
                 "react/promise": "^2.3 || ^1.2.1",
                 "react/promise-stream": "^1.1",
-                "react/socket": "^1.0 || ^0.8.3",
-                "react/stream": "^1.0 || ^0.7.1",
+                "react/socket": "^1.6",
+                "react/stream": "^1.1",
                 "ringcentral/psr7": "^1.2"
             },
             "require-dev": {
                 "clue/block-react": "^1.1",
-                "phpunit/phpunit": "^9.0 || ^5.7 || ^4.8.35"
+                "clue/http-proxy-react": "^1.3",
+                "clue/reactphp-ssh-proxy": "^1.0",
+                "clue/socks-react": "^1.0",
+                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -1010,20 +951,53 @@
             "license": [
                 "MIT"
             ],
-            "description": "Event-driven, streaming plaintext HTTP and secure HTTPS server for ReactPHP",
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering",
+                    "homepage": "https://clue.engineering/"
+                },
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "reactphp@ceesjankiewiet.nl",
+                    "homepage": "https://wyrihaximus.net/"
+                },
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com",
+                    "homepage": "https://sorgalla.com/"
+                },
+                {
+                    "name": "Chris Boden",
+                    "email": "cboden@gmail.com",
+                    "homepage": "https://cboden.dev/"
+                }
+            ],
+            "description": "Event-driven, streaming HTTP client and server implementation for ReactPHP",
             "keywords": [
+                "async",
+                "client",
                 "event-driven",
                 "http",
+                "http client",
+                "http server",
                 "https",
+                "psr-7",
                 "reactphp",
                 "server",
                 "streaming"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/http/issues",
-                "source": "https://github.com/reactphp/http/tree/v0.8.7"
-            },
-            "time": "2020-07-05T11:32:28+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-09-11T11:01:51+00:00"
         },
         {
             "name": "react/promise",
@@ -1069,10 +1043,6 @@
                 "promise",
                 "promises"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/promise/issues",
-                "source": "https://github.com/reactphp/promise/tree/v2.8.0"
-            },
             "time": "2020-05-12T15:16:56+00:00"
         },
         {
@@ -1129,10 +1099,6 @@
                 "stream",
                 "unwrap"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/promise-stream/issues",
-                "source": "https://github.com/reactphp/promise-stream/tree/v1.2.0"
-            },
             "time": "2019-07-03T12:29:10+00:00"
         },
         {
@@ -1186,10 +1152,6 @@
                 "timeout",
                 "timer"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/promise-timer/issues",
-                "source": "https://github.com/reactphp/promise-timer/tree/v1.6.0"
-            },
             "time": "2020-07-10T12:18:06+00:00"
         },
         {
@@ -1260,10 +1222,6 @@
                 "reactphp",
                 "stream"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/socket/issues",
-                "source": "https://github.com/reactphp/socket/tree/v1.6.0"
-            },
             "funding": [
                 {
                     "url": "https://github.com/WyriHaximus",
@@ -1320,10 +1278,6 @@
                 "stream",
                 "writable"
             ],
-            "support": {
-                "issues": "https://github.com/reactphp/stream/issues",
-                "source": "https://github.com/reactphp/stream/tree/v1.1.1"
-            },
             "time": "2020-05-04T10:17:57+00:00"
         },
         {
@@ -1382,23 +1336,20 @@
                 "stream",
                 "uri"
             ],
-            "support": {
-                "source": "https://github.com/ringcentral/psr7/tree/master"
-            },
             "time": "2018-05-29T20:21:04+00:00"
         },
         {
             "name": "sculpin/sculpin",
-            "version": "3.0.3",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sculpin/sculpin.git",
-                "reference": "81b5c64f46069ef598ac2d75cd57b0eaa461c56a"
+                "reference": "8b62800755c04f554064ae0f2c46f7a4a79a515a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/81b5c64f46069ef598ac2d75cd57b0eaa461c56a",
-                "reference": "81b5c64f46069ef598ac2d75cd57b0eaa461c56a",
+                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/8b62800755c04f554064ae0f2c46f7a4a79a515a",
+                "reference": "8b62800755c04f554064ae0f2c46f7a4a79a515a",
                 "shasum": ""
             },
             "require": {
@@ -1410,17 +1361,17 @@
                 "ext-mbstring": "*",
                 "michelf/php-markdown": "^1.9",
                 "netcarver/textile": "^3.6",
-                "php": "^7.2",
-                "react/http": "^0.8.3",
+                "php": "^8.0 || ^7.3",
+                "react/http": "^1.0",
                 "sculpin/sculpin-theme-composer-plugin": "^1.0",
-                "symfony/config": "^4.1",
-                "symfony/console": "^4.1",
-                "symfony/dependency-injection": "^4.1",
-                "symfony/event-dispatcher": "^4.1",
-                "symfony/filesystem": "^4.1",
-                "symfony/finder": "^4.1",
-                "symfony/http-kernel": "^4.1",
-                "symfony/yaml": "^4.1",
+                "symfony/config": "^4.4.13",
+                "symfony/console": "^4.4.13",
+                "symfony/dependency-injection": "^4.4.13",
+                "symfony/event-dispatcher": "^4.4.13",
+                "symfony/filesystem": "^4.4.13",
+                "symfony/finder": "^4.4.13",
+                "symfony/http-kernel": "^4.4.13",
+                "symfony/yaml": "^4.4.13",
                 "twig/extensions": "^1.5",
                 "twig/twig": "^2.5",
                 "webignition/internet-media-type": "^0.4.8"
@@ -1438,9 +1389,9 @@
                 "sculpin/twig-bundle": "self.version"
             },
             "require-dev": {
-                "phpdocumentor/reflection-docblock": "^4.3",
-                "phpstan/phpstan": "^0.10.3",
-                "phpunit/phpunit": "^7.3",
+                "phpdocumentor/reflection-docblock": "^5.2",
+                "phpstan/phpstan": "^0.12.57",
+                "phpunit/phpunit": "^9.4",
                 "squizlabs/php_codesniffer": "^3.3",
                 "symfony/css-selector": "^4.1",
                 "symfony/dom-crawler": "^4.1",
@@ -1488,11 +1439,7 @@
                 "site",
                 "static"
             ],
-            "support": {
-                "issues": "https://github.com/sculpin/sculpin/issues",
-                "source": "https://github.com/sculpin/sculpin/tree/master"
-            },
-            "time": "2019-12-05T07:27:19+00:00"
+            "time": "2020-12-01T19:41:31+00:00"
         },
         {
             "name": "sculpin/sculpin-theme-composer-plugin",
@@ -1531,10 +1478,6 @@
                 "MIT"
             ],
             "description": "Plugin for theming sculpin sites",
-            "support": {
-                "issues": "https://github.com/sculpin/sculpin-theme-composer-plugin/issues",
-                "source": "https://github.com/sculpin/sculpin-theme-composer-plugin/tree/1.0.3"
-            },
             "time": "2020-10-29T13:20:43+00:00"
         },
         {
@@ -1594,9 +1537,6 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/config/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1683,9 +1623,6 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/console/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1752,9 +1689,6 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1837,9 +1771,6 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1904,9 +1835,6 @@
             ],
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1973,9 +1901,6 @@
             ],
             "description": "Symfony ErrorHandler Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/error-handler/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2056,9 +1981,6 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/event-dispatcher/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2135,9 +2057,6 @@
                 "interoperability",
                 "standards"
             ],
-            "support": {
-                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v1.1.9"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2197,9 +2116,6 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2258,9 +2174,6 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/finder/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2337,9 +2250,6 @@
                 "interoperability",
                 "standards"
             ],
-            "support": {
-                "source": "https://github.com/symfony/http-client-contracts/tree/v2.3.1"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2410,9 +2320,6 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.2.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2514,9 +2421,6 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2593,9 +2497,6 @@
                 "polyfill",
                 "portable"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.20.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2673,9 +2574,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.20.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2752,9 +2650,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.20.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2835,9 +2730,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.20.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2914,9 +2806,6 @@
                 "interoperability",
                 "standards"
             ],
-            "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3002,9 +2891,6 @@
                 "debug",
                 "dump"
             ],
-            "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.2.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3073,9 +2959,6 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/yaml/tree/v4.4.17"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3145,10 +3028,6 @@
                 "i18n",
                 "text"
             ],
-            "support": {
-                "issues": "https://github.com/twigphp/Twig-extensions/issues",
-                "source": "https://github.com/twigphp/Twig-extensions/tree/master"
-            },
             "abandoned": true,
             "time": "2018-12-05T18:34:18+00:00"
         },
@@ -3215,10 +3094,6 @@
             "keywords": [
                 "templating"
             ],
-            "support": {
-                "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.14.1"
-            },
             "funding": [
                 {
                     "url": "https://github.com/fabpot",
@@ -3275,10 +3150,6 @@
                 "string",
                 "terminated"
             ],
-            "support": {
-                "issues": "https://github.com/webignition/disallowed-character-terminated-string/issues",
-                "source": "https://github.com/webignition/disallowed-character-terminated-string/tree/master"
-            },
             "time": "2019-12-20T15:52:44+00:00"
         },
         {
@@ -3330,10 +3201,6 @@
                 "media type",
                 "media-type"
             ],
-            "support": {
-                "issues": "https://github.com/webignition/internet-media-type/issues",
-                "source": "https://github.com/webignition/internet-media-type/tree/master"
-            },
             "time": "2018-03-12T14:54:00+00:00"
         },
         {
@@ -3381,10 +3248,6 @@
                 "parser",
                 "quoted-string"
             ],
-            "support": {
-                "issues": "https://github.com/webignition/quoted-string/issues",
-                "source": "https://github.com/webignition/quoted-string/tree/master"
-            },
             "time": "2017-05-11T11:41:31+00:00"
         },
         {
@@ -3432,10 +3295,6 @@
                 "parser",
                 "string"
             ],
-            "support": {
-                "issues": "https://github.com/webignition/string-parser/issues",
-                "source": "https://github.com/webignition/string-parser/tree/master"
-            },
             "time": "2017-05-11T10:04:12+00:00"
         }
     ],
@@ -3487,10 +3346,6 @@
                 }
             ],
             "description": "Bumping into packages",
-            "support": {
-                "issues": "https://github.com/malukenho/mcbumpface/issues",
-                "source": "https://github.com/malukenho/mcbumpface/tree/1.1.5"
-            },
             "time": "2020-10-29T20:32:02+00:00"
         }
     ],
@@ -3501,5 +3356,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
