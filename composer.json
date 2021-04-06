@@ -16,17 +16,8 @@
         }
     ],
     "require": {
-        "sculpin/sculpin": "^3.1.0"
-    },
-    "scripts": {
-        "sculpin-watch": [
-            "Composer\\Config::disableProcessTimeout",
-            "./vendor/bin/sculpin generate --watch --server"
-        ],
-        "yarn-watch": [
-            "Composer\\Config::disableProcessTimeout",
-            "yarn encore dev --watch"
-        ]
+        "sculpin/sculpin": "^3.1.0",
+        "airtonzanon/sculpin-contentful-bundle": "dev-master"
     },
     "require-dev": {
         "malukenho/mcbumpface": "^1.1.5"
