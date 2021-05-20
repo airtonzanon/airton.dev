@@ -12,20 +12,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/airtonzanon/sculpin-contentful-bundle.git",
-                "reference": "511f69ebd155b23bfca59c6277ec5906917086f4"
+                "reference": "652792c886bb7b4de9751f3278dd2e574550e671"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/airtonzanon/sculpin-contentful-bundle/zipball/511f69ebd155b23bfca59c6277ec5906917086f4",
-                "reference": "511f69ebd155b23bfca59c6277ec5906917086f4",
+                "url": "https://api.github.com/repos/airtonzanon/sculpin-contentful-bundle/zipball/652792c886bb7b4de9751f3278dd2e574550e671",
+                "reference": "652792c886bb7b4de9751f3278dd2e574550e671",
                 "shasum": ""
             },
             "require": {
                 "contentful/contentful": "^6.1.0",
-                "php": "^7.4|^8.0"
+                "ext-iconv": "*",
+                "php": "^7.4|^8.0",
+                "symfony/console": "^3.4.29 || ^4.1.19 || ^5.0"
             },
             "require-dev": {
-                "malukenho/mcbumpface": "^1.1.5"
+                "infection/infection": "^0.23.0",
+                "malukenho/mcbumpface": "^1.1.5",
+                "phpunit/phpunit": "^9.5.4",
+                "vimeo/psalm": "^4.7.3"
             },
             "suggest": {
                 "sculpin/sculpin": "@stable"
@@ -53,7 +58,7 @@
                     "homepage": "https://airton.dev"
                 }
             ],
-            "description": "Fetch contentful content and generate what you want with twig",
+            "description": "Fetch contentful content and dump the markdowns as posts for sculpin",
             "keywords": [
                 "contentful",
                 "markdown",
@@ -64,7 +69,13 @@
                 "issues": "https://github.com/airtonzanon/sculpin-contentful-bundle/issues",
                 "source": "https://github.com/airtonzanon/sculpin-contentful-bundle/tree/master"
             },
-            "time": "2021-04-06T21:01:50+00:00"
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/airtonzanon",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-05-24T09:56:59+00:00"
         },
         {
             "name": "cache/adapter-common",
