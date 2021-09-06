@@ -16,8 +16,8 @@
         }
     ],
     "require": {
-        "sculpin/sculpin": "^3.1.0",
-        "airtonzanon/sculpin-contentful-bundle": "dev-master"
+        "sculpin/sculpin": "^3.1.1",
+        "airtonzanon/sculpin-contentful-bundle": "^0.0.1"
     },
     "require-dev": {
         "malukenho/mcbumpface": "^1.1.5"

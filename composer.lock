@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2075dd0ac03fd0daf925bed14c8a9184",
+    "content-hash": "69eceefa0248c8ac30f86fd8473bc347",
     "packages": [
         {
             "name": "airtonzanon/sculpin-contentful-bundle",
-            "version": "dev-master",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/airtonzanon/sculpin-contentful-bundle.git",
-                "reference": "652792c886bb7b4de9751f3278dd2e574550e671"
+                "reference": "7ab3a91763165a3f93713e268cef8f3896ecb360"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/airtonzanon/sculpin-contentful-bundle/zipball/652792c886bb7b4de9751f3278dd2e574550e671",
-                "reference": "652792c886bb7b4de9751f3278dd2e574550e671",
+                "url": "https://api.github.com/repos/airtonzanon/sculpin-contentful-bundle/zipball/7ab3a91763165a3f93713e268cef8f3896ecb360",
+                "reference": "7ab3a91763165a3f93713e268cef8f3896ecb360",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,7 @@
                 "symfony/console": "^3.4.29 || ^4.1.19 || ^5.0"
             },
             "require-dev": {
-                "infection/infection": "^0.23.0",
+                "infection/infection": "^0.24.0",
                 "malukenho/mcbumpface": "^1.1.5",
                 "phpunit/phpunit": "^9.5.4",
                 "vimeo/psalm": "^4.7.3"
@@ -35,7 +35,6 @@
             "suggest": {
                 "sculpin/sculpin": "@stable"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "symfony": {
@@ -67,7 +66,7 @@
             ],
             "support": {
                 "issues": "https://github.com/airtonzanon/sculpin-contentful-bundle/issues",
-                "source": "https://github.com/airtonzanon/sculpin-contentful-bundle/tree/master"
+                "source": "https://github.com/airtonzanon/sculpin-contentful-bundle/tree/0.0.1"
             },
             "funding": [
                 {
@@ -75,7 +74,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-05-24T09:56:59+00:00"
+            "time": "2021-08-31T18:32:08+00:00"
         },
         {
             "name": "cache/adapter-common",
@@ -4749,12 +4748,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "airtonzanon/sculpin-contentful-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
