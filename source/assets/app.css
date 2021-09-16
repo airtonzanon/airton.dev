@@ -9,9 +9,6 @@ body {
 }
 
 body {
-  background-size: 1em 1em;
-  background-image: radial-gradient(circle, rgba(0, 50, 255, 0.2) 1px, rgba(0, 0, 0, 0) 2px);
-  background-position: .3em .62em;
   color: #000;
   font-family: "Roboto Mono", monospace;
 }
