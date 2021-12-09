@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c4bb57b45968d06ac8ef4b9f4d46bd8",
+    "content-hash": "7773806167abdb2759eda867b6c4ff46",
     "packages": [
         {
             "name": "airtonzanon/sculpin-contentful-bundle",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/airtonzanon/sculpin-contentful-bundle.git",
-                "reference": "1922cb76811510cec2a5b7f930446c8e988de776"
+                "reference": "9e5d3f9cae9492343ad5b7dd2b48045d6bf4ac24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/airtonzanon/sculpin-contentful-bundle/zipball/1922cb76811510cec2a5b7f930446c8e988de776",
-                "reference": "1922cb76811510cec2a5b7f930446c8e988de776",
+                "url": "https://api.github.com/repos/airtonzanon/sculpin-contentful-bundle/zipball/9e5d3f9cae9492343ad5b7dd2b48045d6bf4ac24",
+                "reference": "9e5d3f9cae9492343ad5b7dd2b48045d6bf4ac24",
                 "shasum": ""
             },
             "require": {
@@ -66,7 +66,7 @@
             ],
             "support": {
                 "issues": "https://github.com/airtonzanon/sculpin-contentful-bundle/issues",
-                "source": "https://github.com/airtonzanon/sculpin-contentful-bundle/tree/0.0.2"
+                "source": "https://github.com/airtonzanon/sculpin-contentful-bundle/tree/0.0.3"
             },
             "funding": [
                 {
@@ -74,7 +74,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-11-23T15:06:24+00:00"
+            "time": "2021-12-08T14:44:45+00:00"
         },
         {
             "name": "cache/adapter-common",
@@ -1067,16 +1067,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.4.0",
+            "version": "7.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "868b3571a039f0ebc11ac8f344f4080babe2cb94"
+                "reference": "ee0a041b1760e6a53d2a39c8c34115adc2af2c79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/868b3571a039f0ebc11ac8f344f4080babe2cb94",
-                "reference": "868b3571a039f0ebc11ac8f344f4080babe2cb94",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ee0a041b1760e6a53d2a39c8c34115adc2af2c79",
+                "reference": "ee0a041b1760e6a53d2a39c8c34115adc2af2c79",
                 "shasum": ""
             },
             "require": {
@@ -1085,7 +1085,7 @@
                 "guzzlehttp/psr7": "^1.8.3 || ^2.1",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
-                "symfony/deprecation-contracts": "^2.2"
+                "symfony/deprecation-contracts": "^2.2 || ^3.0"
             },
             "provide": {
                 "psr/http-client-implementation": "1.0"
@@ -1171,7 +1171,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.4.0"
+                "source": "https://github.com/guzzle/guzzle/tree/7.4.1"
             },
             "funding": [
                 {
@@ -1187,7 +1187,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-18T09:52:00+00:00"
+            "time": "2021-12-06T18:43:05+00:00"
         },
         {
             "name": "guzzlehttp/promises",
