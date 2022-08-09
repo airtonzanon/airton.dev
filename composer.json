@@ -21,5 +21,11 @@
     },
     "require-dev": {
         "malukenho/mcbumpface": "^1.1.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "malukenho/mcbumpface": true,
+            "sculpin/sculpin-theme-composer-plugin": true
+        }
     }
 }
