@@ -4,33 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e99774cf063253c92be23eecbde9674b",
+    "content-hash": "e1f9bc93712c4edbfbb76cb6afa44175",
     "packages": [
         {
             "name": "airtonzanon/sculpin-contentful-bundle",
-            "version": "0.0.6",
+            "version": "0.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/airtonzanon/sculpin-contentful-bundle.git",
-                "reference": "4ff89756cfa746a7a31329ba8a782cb119c62721"
+                "reference": "171faf5dcdd8f2b7a5060489a8b1b02069fa6f26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/airtonzanon/sculpin-contentful-bundle/zipball/4ff89756cfa746a7a31329ba8a782cb119c62721",
-                "reference": "4ff89756cfa746a7a31329ba8a782cb119c62721",
+                "url": "https://api.github.com/repos/airtonzanon/sculpin-contentful-bundle/zipball/171faf5dcdd8f2b7a5060489a8b1b02069fa6f26",
+                "reference": "171faf5dcdd8f2b7a5060489a8b1b02069fa6f26",
                 "shasum": ""
             },
             "require": {
                 "contentful/contentful": "^6.4.0",
                 "ext-iconv": "*",
-                "php": "^7.4|^8.0",
+                "php": "^8.0",
                 "symfony/console": "^3.4.29 || ^4.1.19 || ^5.0"
             },
             "require-dev": {
                 "infection/infection": "^0.26.13",
                 "malukenho/mcbumpface": "^1.1.5",
                 "phpunit/phpunit": "^9.5.21",
-                "vimeo/psalm": "^4.23.0"
+                "vimeo/psalm": "^4.26.0"
             },
             "suggest": {
                 "sculpin/sculpin": "@stable"
@@ -66,7 +66,7 @@
             ],
             "support": {
                 "issues": "https://github.com/airtonzanon/sculpin-contentful-bundle/issues",
-                "source": "https://github.com/airtonzanon/sculpin-contentful-bundle/tree/0.0.6"
+                "source": "https://github.com/airtonzanon/sculpin-contentful-bundle/tree/0.0.7"
             },
             "funding": [
                 {
@@ -74,7 +74,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-07-11T21:02:12+00:00"
+            "time": "2022-11-08T11:17:46+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
@@ -4917,5 +4917,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
