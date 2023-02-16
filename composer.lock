@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1f9bc93712c4edbfbb76cb6afa44175",
+    "content-hash": "cbb94332062503ea249fa65ee02627e7",
     "packages": [
         {
             "name": "airtonzanon/sculpin-contentful-bundle",
