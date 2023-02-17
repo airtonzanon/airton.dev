@@ -17,7 +17,7 @@
     ],
     "require": {
         "sculpin/sculpin": "^3.2.0",
-        "airtonzanon/sculpin-contentful-bundle": "^0.0.7",
+        "airtonzanon/sculpin-contentful-bundle": "^0.0.9",
 	"symfony/http-kernel": "^v4.4.50"
     },
     "require-dev": {
